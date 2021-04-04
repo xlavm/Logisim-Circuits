@@ -175,18 +175,18 @@ end TCL_Generic;&#13;
       <a name="label" val="Left_Go"/>
     </comp>
     <comp lib="5" loc="(370,570)" name="7-Segment Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3e3708d0"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@24429c35"/>
       <a name="labelvisible" val="true"/>
     </comp>
     <comp lib="5" loc="(420,570)" name="7-Segment Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@48bb7afd"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@7a37441f"/>
     </comp>
     <comp lib="5" loc="(700,130)" name="7-Segment Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@79c79ac"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@3af23d98"/>
       <a name="labelvisible" val="true"/>
     </comp>
     <comp lib="5" loc="(750,130)" name="7-Segment Display">
-      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@37f107e0"/>
+      <a name="Dummy" val="com.cburch.logisim.fpga.data.ComponentMapInformationContainer@41d6e557"/>
     </comp>
     <comp lib="5" loc="(770,380)" name="LED">
       <a name="facing" val="south"/>
@@ -386,7 +386,7 @@ end TCL_Generic;&#13;
 32 33 34 35 36 37 38 39
 40 41 42 43 44 45 46 47
 48 49 50 51 52 53 54 55
-56 57 58 59 60
+56 57 58 59 60 61 62 63
 </a>
       <a name="label" val="Actual_Position"/>
       <a name="labelvisible" val="true"/>

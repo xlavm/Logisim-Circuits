@@ -1,0 +1,82 @@
+# Tabla de verdad
+# Generado a partir de un circuito Movement_Control_Decoder
+# Exportado en Tue Apr 06 12:40:00 COT 2021
+
+# Consejos y notas sobre el formato:
+# * Puede editar este archivo y luego importarlo de nuevo a Logisim!
+# * Cualquier cosa después de un '#' es un comentario y será ignorado.
+# * Las líneas en blanco y las líneas de separación (por ejemplo, ~~~~~~~) se ignoran.
+%a * Mantener nombres de columnas simples (sin espacios, puntuación, etc.)
+# * 'Nombre[N..0]' indica una variable de 1 bit N, mientras que
+# 'Nombre' por sí mismo indica una variable de 1 bit.
+Puedes usar'x' o'-' para indicar "no me importa" para ambos.
+# bits de entrada y salida.
+Puede utilizar la notación binaria (por ejemplo,'10100011xxxxxx') o
+y o hexadecimal (por ejemplo, 'C3x'). Logisim averiguará cuál es cuál.
+
+Entrance[5..0] | Next_Position[5..0] Action[1..0]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    000000     |       001011             01     
+    000001     |       000010             11     
+    000010     |       111110             00     
+    000011     |       101010             00     
+    000100     |       110001             01     
+    000101     |       011101             11     
+    000110     |       011101             10     
+    000111     |       001001             10     
+    001000     |       111101             10     
+    001001     |       000000             10     
+    001010     |       111111             11     
+    001011     |       001011             11     
+    001100     |       100000             00     
+    001101     |       011111             10     
+    001110     |       001111             11     
+    001111     |       001011             11     
+    010000     |       011001             10     
+    010001     |       010110             00     
+    010010     |       111100             01     
+    010011     |       101001             00     
+    010100     |       100110             00     
+    010101     |       001100             01     
+    010110     |       011011             01     
+    010111     |       110100             01     
+    011000     |       100101             00     
+    011001     |       010111             10     
+    011010     |       111110             11     
+    011011     |       110110             10     
+    011100     |       000100             10     
+    011101     |       001000             01     
+    011110     |       001011             11     
+    011111     |       101011             10     
+    100000     |       100001             01     
+    100001     |       000011             01     
+    100010     |       011000             01     
+    100011     |       001010             01     
+    100100     |       010000             01     
+    100101     |       010100             01     
+    100110     |       000111             00     
+    100111     |       000010             00     
+    101000     |       000110             00     
+    101001     |       100100             00     
+    101010     |       011100             00     
+    101011     |       101000             00     
+    101100     |       011110             00     
+    101101     |       110110             00     
+    101110     |       001111             00     
+    101111     |       101011             00     
+    110000     |       110101             11     
+    110001     |       010001             01     
+    110010     |       011100             01     
+    110011     |       101001             01     
+    110100     |       110111             01     
+    110101     |       010011             01     
+    110110     |       001101             01     
+    110111     |       100010             00     
+    111000     |       010101             00     
+    111001     |       010101             00     
+    111010     |       011100             01     
+    111011     |       110100             00     
+    111100     |       111000             10     
+    111101     |       010011             01     
+    111110     |       001001             11     
+    111111     |       101011             00     
